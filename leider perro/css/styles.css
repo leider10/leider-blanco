@@ -1,0 +1,110 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes heroAnimation {
+    0% {
+        opacity: 0;
+        animation-timing-function: ease-in;
+    }
+
+    12% { opacity: 1;}
+
+    25% { transform: scale(1.2);}
+
+    75% {
+        opacity: 0;
+        transform: scale(1.1);
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.he {
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.he div {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    opacity: 0;
+    animation: heroAnimation 7s infinite;
+}
+
+.he div:nth-child(1) {
+    background-image: url('');
+    
+}
+.he div:nth-child(2) {
+    background-image: url('.');
+    animation-delay: 3s;
+}
+.he div:nth-child(3) {
+    background-image: url('');
+    animation-delay: 3s;
+}
+.he div:nth-child(4) {
+    background-image: url();
+    animation-delay: 4s;
+}  
+.primera {
+    background-color: rgba(237, 231, 212, 0.877);
+    margin-top: 50vh;
+    display: flex;
+    padding: 2rem 1rem;
+  
+}
+h1{
+    text-align: center;
+}
+
+
+.uno{
+    width: 60%;
+    padding: 0.5rem 1rem;
+}
+
+.dos {
+    width: 40%;
+    padding: 0.5rem 1rem;
+}
+
+.doss{
+    background-color: rgba(220, 235, 204, 0.877);
+    display: flex;
+    padding: 2rem 1rem;
+  
+}
+
+
+.unou{
+    width: 40%;
+    padding: 0.5rem 1rem;
+}
+
+.dosd {
+    width: 60%;
+    padding: 0.5rem 1rem;
+}
+.tres{
+    background-color: rgba(230, 221, 152, 0.877);
+    display: flex;
+    padding: 2rem 1rem;
+  
+}
